@@ -14,7 +14,7 @@
 
 ## Overview
 
-Here are 15 screenshots showing how our sentiment analysis app works. We redesigned the interface so that the input is on the left and the analysis results are on the right - so you can see everything without scrolling. Each screenshot shows a different feature or use case.
+Here are 15 screenshots showing how our sentiment analysis app works.
 
 **Key Features:**
 
@@ -336,102 +336,16 @@ Here are 15 screenshots showing how our sentiment analysis app works. We redesig
 
 ---
 
-## Layout Architecture
-
-```
-┌─────────────────────────────────────────────────────┐
-│                    HEADER (Compact)                   │
-│          Reduced: 16px padding, 1.8rem font         │
-├─────────────────────────────────────────────────────┤
-│     LEFT COLUMN (240px)    │    RIGHT COLUMN (flex)  │
-│   ┌──────────────────────┐ │ ┌──────────────────────┐│
-│   │  TABS (Vertical)     │ │ │  RESULTS SECTION     ││
-│   │  ├─ Single Text      │ │ │  ├─ Charts           ││
-│   │  ├─ File Upload      │ │ │  ├─ Gauge            ││
-│   │  └─ Batch Analysis   │ │ │  ├─ Confidence       ││
-│   │                      │ │ │  └─ Indicators       ││
-│   │  INPUT AREA:         │ │ │                      ││
-│   │  ├─ Textarea (100px) │ │ │                      ││
-│   │  ├─ Quick Result     │ │ │                      ││
-│   │  └─ Preprocessed     │ │ │                      ││
-│   └──────────────────────┘ │ └──────────────────────┘│
-├─────────────────────────────────────────────────────┤
-│            FOOTER (Compact)                          │
-│          Reduced: 12px padding, 0.75rem font        │
-└─────────────────────────────────────────────────────┘
-```
-
----
-
-## Key Improvements & Features
-
-### 1. **2-Column Side-by-Side Layout**
-
-- Left: Input controls and quick results
-- Right: Detailed analytics and visualizations
-- No horizontal/vertical scrolling needed
-
-### 2. **Quick Result Display (Left Column)**
-
-- Sentiment emoji (😊/😞/😐)
-- Sentiment classification (POSITIVE/NEGATIVE/NEUTRAL)
-- Preprocessed text preview
-- Immediate visual feedback
-
-### 3. **Comprehensive Analytics (Right Column)**
-
-- Interactive visualizations (pie & bar charts)
-- Sentiment gauge with visual indicator
-- Confidence level with progress bar
-- Key indicators with detailed metrics
-
-### 4. **Multiple Input Methods**
-
-- Single text analysis (with real-time character counter)
-- File upload (drag-and-drop and browse)
-- Batch analysis (up to 50 texts simultaneously)
-- Error handling for invalid inputs
-
-### 5. **User Experience**
-
-- Intuitive tab-based navigation
-- Real-time validation and feedback
-- Professional error messages
-- No duplication of information
-- Efficient space utilization
-
----
-
-## Technical Specifications
-
-**Capture Settings:**
-
-- **Resolution:** 1400 × 1000 pixels (Professional HD)
-- **Browser:** Mozilla Firefox (Headless)
-- **Format:** PNG (lossless compression)
-- **Total Size:** ~1.7 MB (15 files)
-- **Average File Size:** ~113 KB per screenshot
-
-**Application Stack:**
-
-- **Backend:** Flask 2.3.3 (Python 3.12.6)
-- **Frontend:** HTML5, CSS3, Vanilla JavaScript
-- **NLP Engine:** NLTK VADER Sentiment Analyzer
-- **Visualization:** Chart.js for interactive charts
-- **Port:** 5001
-
----
-
 ## Summary
 
-The 15 comprehensive screenshots demonstrate all functionality of the sentiment analysis application with the new efficient 2-column layout. Users can:
+The 15 comprehensive screenshots demonstrate all functionality of the sentiment analysis application.
+
+Users can:
 
 1. **Quickly analyze** single texts with immediate visual feedback
 2. **Upload files** for comprehensive document analysis
 3. **Batch analyze** multiple texts simultaneously for comparison
 4. **Track input** with real-time character counter
 5. **View results** without scrolling on standard HD resolution
-
-All features are captured in a single viewport, providing clear visual proof of complete functionality and improved user experience through effective layout design.
 
 ---
