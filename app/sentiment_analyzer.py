@@ -4,8 +4,6 @@ Sentiment Analyzer Module
 This module handles NLP preprocessing and sentiment analysis using VADER sentiment analyzer.
 Provides comprehensive text preprocessing including tokenization, stemming, and lemmatization.
 
-Author: NLP Assignment 2
-Date: 2026
 """
 
 import nltk

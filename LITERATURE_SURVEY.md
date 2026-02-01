@@ -260,7 +260,7 @@ Because of this "fight", the sentiment network learns features that work no matt
 
 **Example:** "The food was delicious but the service was terrible"
 
-- Food = Positive ✓
+- Food = Positive
 - Service = Negative ✗
 
 **Study:** Pontiki et al. (2016) - "SemEval-2016 Task 5: Aspect-Based Sentiment Analysis"
@@ -652,9 +652,3 @@ The model says: "Positive"
 - Demszky, D., Movshovitz-Attias, D., Chang, J., Eisner, J., Ravi, S., & Szpektor, I. (2020). "GoEmotions: A Dataset of Fine-Grained Emotions". ACL.
 
 ---
-
-**Literature Survey Prepared By:** Assignment 2 Development Team  
-**Date:** February 1, 2026  
-**Version:** 1.0 (Final)  
-**Total References:** 25+ academic papers and industry sources  
-**Survey Scope:** 2002-2024 (22+ years of research)

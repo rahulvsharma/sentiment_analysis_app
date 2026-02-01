@@ -233,14 +233,6 @@ Potential improvements for future versions:
 - VADER Sentiment Analyzer: https://github.com/cjhutto/vaderSentiment
 - Flask Documentation: https://flask.palletsprojects.com/
 
-## Contributors
-
-Student: Rahul  
-Institution: BITS Pilani, Dubai Campus  
-Course: NLP Applications (S1-25_AIMLCZG519)  
-Assignment: Assignment 2 (PS-10)  
-Date: February 2026
-
 ---
 
 For detailed design decisions and implementation challenges, please refer to DESIGN_REPORT.md  

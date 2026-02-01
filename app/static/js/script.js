@@ -184,7 +184,7 @@ function showUploadError(message) {
 
 function showUploadSuccess(message) {
   const uploadStatus = document.getElementById("uploadStatus");
-  uploadStatus.textContent = "✓ " + message;
+  uploadStatus.textContent = "  " + message;
   uploadStatus.className = "upload-status success";
 }
 

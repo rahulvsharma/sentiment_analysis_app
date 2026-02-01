@@ -4,8 +4,6 @@ Sentiment Analysis Web Application
 A Flask-based web application that performs sentiment analysis on user-provided text.
 Uses NLTK's VADER sentiment analyzer for accurate sentiment detection.
 
-Author: NLP Assignment 2
-Date: 2026
 """
 
 from flask import Flask, render_template, request, jsonify

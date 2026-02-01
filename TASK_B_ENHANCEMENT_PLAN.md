@@ -546,21 +546,21 @@ Real education feedback examples:
 
 ### Healthcare
 
-- ✓ "Effective medication" shows POSITIVE
-- ✓ "Severe complications" shows NEGATIVE
-- ✓ "Aggressive treatment worked" shows POSITIVE
+- "Effective medication" shows POSITIVE
+- "Severe complications" shows NEGATIVE
+- "Aggressive treatment worked" shows POSITIVE
 
 ### Finance
 
-- ✓ "Stock surged" shows POSITIVE
-- ✓ "Market crashed" shows NEGATIVE
-- ✓ "Volatile but opportunity" shows POSITIVE
+- "Stock surged" shows POSITIVE
+- "Market crashed" shows NEGATIVE
+- "Volatile but opportunity" shows POSITIVE
 
 ### Education
 
-- ✓ Teaching quality separate from difficulty level
-- ✓ Can tell praise apart from suggestions and complaints
-- ✓ Points out which aspect to focus on
+- Teaching quality separate from difficulty level
+- Can tell praise apart from suggestions and complaints
+- Points out which aspect to focus on
 
 ---
 
@@ -637,7 +637,3 @@ Here's what you'll accomplish:
 The hard part is already done. Now you're just adding the smart layers on top!
 
 ---
-
-**For:** Assignment 2 - NLP Applications  
-**Date:** February 1, 2026  
-**Ready:** Yes, let's build this!

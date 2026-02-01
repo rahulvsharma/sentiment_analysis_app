@@ -618,7 +618,7 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
    - Expected: Error message
 
 5. **Edge Case - Special Characters**
-   - Input: "😊 Great! 🎉"
+   - Input: "😊 Great!"
    - Expected: Successfully analyzed, special chars handled
 
 6. **File Upload Test**
@@ -659,7 +659,3 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 8.  Check Literature Survey for research background
 
 ---
-
-**Running Instructions Prepared By:** Assignment 2 Development Team  
-**Date:** February 1, 2026  
-**Version:** 1.0 (Final)

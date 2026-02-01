@@ -29,7 +29,7 @@ try:
     print('02_positive_input.png')
     
     driver.find_element(By.ID, 'analyzeBtn').click()
-    time.sleep(2)
+    time.sleep(4)
     driver.save_screenshot('screenshots/03_positive_results.png')
     print('03_positive_results.png')
     
@@ -41,7 +41,7 @@ try:
     print('04_negative_input.png')
     
     driver.find_element(By.ID, 'analyzeBtn').click()
-    time.sleep(2)
+    time.sleep(4)
     driver.save_screenshot('screenshots/05_negative_results.png')
     print('05_negative_results.png')
     
@@ -53,7 +53,7 @@ try:
     print('06_neutral_input.png')
     
     driver.find_element(By.ID, 'analyzeBtn').click()
-    time.sleep(2)
+    time.sleep(4)
     driver.save_screenshot('screenshots/07_neutral_results.png')
     print('07_neutral_results.png')
     
@@ -86,7 +86,7 @@ try:
     print('12_batch_input.png')
     
     driver.find_element(By.ID, 'batchAnalyzeBtn').click()
-    time.sleep(2)
+    time.sleep(4)
     driver.save_screenshot('screenshots/13_batch_results.png')
     print('13_batch_results.png')
     

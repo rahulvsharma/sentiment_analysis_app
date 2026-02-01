@@ -534,7 +534,3 @@ We have successfully developed a production-ready sentiment analysis application
 The application is ready for deployment and can be easily extended with additional features as needed.
 
 ---
-
-**Report Prepared By:** Assignment 2 Development Team  
-**Date:** February 1, 2026  
-**Version:** 1.0 (Final)
